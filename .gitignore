@@ -1,3 +1,9 @@
+# Project specifics
+Debug
+*.atsuo
+*.dia~
+*.dsn.autosave
+
 # Prerequisites
 *.d
 
