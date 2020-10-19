@@ -8,15 +8,16 @@ two LED Flexible Silicone Neon-Like 1 Meter Ice Blue LED Strips. Face elements
 components can be found at https://www.adafruit.com/.
 
 ## Circuit 
-![circuit](./suplemental/casper_croped.png)
+![circuit](./suplemental/casper_cropped.png)
 
-Project is powered by 12 V DC power supply (at least 2A output ). 12 V required 
+Project is powered by 12 V DC power supply (at least 2A output needed). 12 V required 
 to power up LED strips. Chip and backlight modules are powered by 5 V which is 
 produced out of 12 V by step down power module based on LM2596.
-Attiny85 controls backlight KED modules directly and silicone strips by 
-NTE196 npn transistor (it is probably an overkill but it is only what I could buy
-at local Fry's store. I think any npn transistor with output current > 1.6 A 
-will fit). 
+Attiny85 controls backlight LED modules directly. For control of silicone strips
+I added NTE196 npn transistor (it is probably an overkill but it is only what I 
+could find at local Fry's store. I think any npn transistor with output 
+current > 1.6 A will fit). 
+
 ## Programming
 
 Programming was done by Atmel Studio 7.0 in C language. 
